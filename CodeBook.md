@@ -21,38 +21,38 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables included for these signals are:
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 The names of these variables have been modified from the original dataset to make them more readable.
 
 ## Transformations
 
-(1) Combine rows of subject data from the train and test datasets
-(2) Combine rows of activity data from the train and test datasets
-(3) Changed activity data to be displayed with the descriptive names corresponding to the numbers in the original
-(4) Combine rows of measurement data from the train and test datasets
-(5) Combine columns from subject, activity, and measurement data and use features data for column names
-(6) Filter to retain only the subject and activity data and data corresponding to the mean and standard deviation for measurements
-(7) Search and replace strings in column names to make them more readable and clear
-(8) Aggregate the dataset by subject and activity and calculate the mean for each measurement column in the aggregate dataset
+1. Combine rows of subject data from the train and test datasets
+2. Combine rows of activity data from the train and test datasets
+3. Changed activity data to be displayed with the descriptive names corresponding to the numbers in the original
+4. Combine rows of measurement data from the train and test datasets
+5. Combine columns from subject, activity, and measurement data and use features data for column names
+6. Filter to retain only the subject and activity data and data corresponding to the mean and standard deviation for measurements
+7. Search and replace strings in column names to make them more readable and clear
+8. Aggregate the dataset by subject and activity and calculate the mean for each measurement column in the aggregate dataset
