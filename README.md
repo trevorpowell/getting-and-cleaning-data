@@ -1,4 +1,4 @@
-# README
+# Getting and Cleaning Data Course Project
 
 Files included in this repository:
 
